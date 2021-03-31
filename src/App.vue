@@ -19,7 +19,7 @@ export default {
   created() {
     let that = this
     enquireScreen((deviceType) => {
-      // tablet
+      // tablet1
       if (deviceType === 0) {
         that.$store.commit('TOGGLE_DEVICE', 'mobile')
         that.$store.dispatch('setSidebar', false)
