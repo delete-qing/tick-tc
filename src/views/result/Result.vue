@@ -9,7 +9,9 @@
       <slot></slot>
     </div>
     <div class="action">
-      <slot name="action"></slot>
+      <slot name="action">
+        <!-- 第二次提价 -->
+      </slot>
     </div>
   </div>
 </template>
